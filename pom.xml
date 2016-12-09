@@ -14,8 +14,11 @@
 		<!-- client -->
 		<gwt.version>2.7.0</gwt.version>
 		<gwt.style>OBF</gwt.style>
-		<parallax3d.version>2.0-SNAPSHOT</parallax3d.version>
 		
+		<parallax3d.version>2.0-SNAPSHOT</parallax3d.version>
+
+		<gwtboostrap3.version>0.9.3</gwtboostrap3.version>
+
 		<appengine.sdk.version>1.9.48</appengine.sdk.version>
 
 		<!-- maven -->
@@ -55,7 +58,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>${appengine.sdk.version}</version>
 			</plugin>
-			
+
 			<!-- GWT -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -172,6 +175,14 @@
 			<version>${parallax3d.version}</version>
 			<scope>provided</scope>
 			<classifier>sources</classifier>
+		</dependency>
+
+		<!-- GwtBoostrap3 -->
+		<dependency>
+			<groupId>org.gwtbootstrap3</groupId>
+			<artifactId>gwtbootstrap3</artifactId>
+			<version>${gwtboostrap3.version}</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 

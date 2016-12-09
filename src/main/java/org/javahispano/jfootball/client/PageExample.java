@@ -3,6 +3,7 @@
  */
 package org.javahispano.jfootball.client;
 
+import org.gwtbootstrap3.client.ui.AnchorListItem;
 import org.javahispano.jfootball.client.application.animation.MyAnimation;
 import org.javahispano.jfootball.client.application.animation.MyAnimation2;
 import org.javahispano.jfootball.client.application.animation.MyAnimation3;
@@ -17,8 +18,6 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
-import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.ResizeComposite;
 import com.google.gwt.user.client.ui.SimpleLayoutPanel;
 import com.google.gwt.user.client.ui.Widget;
@@ -39,23 +38,17 @@ public class PageExample extends ResizeComposite implements AnimationReadyListen
 	}
 
 	/**
-	 * The main menu used to navigate to examples.
-	 */
-	@UiField
-	FlowPanel menu;
-
-	/**
 	 * Main panel where will be RenderingPanel located
 	 */
 	@UiField
 	SimpleLayoutPanel content;
 
 	@UiField
-	Button button1;
+	AnchorListItem button1;
 	@UiField
-	Button button2;
+	AnchorListItem button2;
 	@UiField
-	Button button3;
+	AnchorListItem button3;
 
 	GwtRenderingContext rendering;
 

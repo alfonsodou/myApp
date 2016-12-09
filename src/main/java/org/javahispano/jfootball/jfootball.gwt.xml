@@ -14,6 +14,9 @@
 	<inherits name='org.parallax3d.parallax.loaders' />
 	<inherits name='org.parallax3d.parallax.renderer-plugins' />
 
+	<!-- GwtBoostrap3 -->
+	<inherits name="org.gwtbootstrap3.GwtBootstrap3" />
+	
 	<!-- Specify the app entry point class. -->
 	<entry-point class='org.javahispano.jfootball.client.Jfootball' />
 
@@ -25,7 +28,7 @@
 		value="true" />
 
 	<set-configuration-property name="parallax.assetpath"
-		value="./src/main/resources/org/javahispano/jfootball/client/resources/assets" />
+		value="./src/main/resources/assets" />
 
 	<set-configuration-property name="CssResource.legacy"
 		value="true" />
