@@ -1,6 +1,6 @@
-# myApp
-Aplicación ejemplo GWT+Paralllax 3D
+# jfootball
+Asistente creación equipo fútbol para javaleague
 
 # http://parallax3d.org/
 # http://www.gwtproject.org/
-# http://myapp-151817.appspot.com/
+# http://jfootball-130923.appspot.com/
